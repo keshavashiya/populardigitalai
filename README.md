@@ -48,12 +48,17 @@ A Node.js based REST API for managing rooms, guest check-ins/check-outs, and roo
 
 ## Running the Application
 
-1. Start the server:
+1. Start the development server:
    ```bash
    npm run start:dev
    ```
+   The API will be available at `http://localhost:3000`
 
-2. The API will be available at `http://localhost:3000`
+2. Run tests with coverage:
+   ```bash
+   npm test
+   ```
+   This will run all tests and generate a coverage report
 
 ## API Endpoints
 
